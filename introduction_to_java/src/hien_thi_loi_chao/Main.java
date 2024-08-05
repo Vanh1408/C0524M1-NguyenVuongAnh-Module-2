@@ -2,7 +2,7 @@ package hien_thi_loi_chao;
 
 import java.util.Scanner;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         System.out.println("Enter your name: ");
         Scanner sc = new Scanner(System.in);
