@@ -14,6 +14,10 @@ class Main {
         selectionSort(arr);
         stopWatch.stop();
         System.out.println("Time elapsed for selection sort: " + stopWatch.getElapsedTime() + " milliseconds");
+        stopWatch.start();
+        selectionSort(arr);
+        stopWatch.stop();
+        System.out.println("Time elapsed for selection sort: " + stopWatch.getElapsedTime() + " milliseconds");
     }
 
     public static void selectionSort(int[] arr) {

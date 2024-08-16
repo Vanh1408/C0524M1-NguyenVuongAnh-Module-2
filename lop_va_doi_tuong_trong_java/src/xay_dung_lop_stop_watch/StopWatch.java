@@ -16,12 +16,12 @@ class StopWatch {
         return endTime;
     }
 
-    public long start() {
-        return this.startTime;
+    public void start() {
+        this.startTime = System.currentTimeMillis();
     }
 
-    public long stop() {
-        return this.endTime;
+    public void stop() {
+        this.endTime = System.currentTimeMillis();
     }
 
     public long getElapsedTime() {
