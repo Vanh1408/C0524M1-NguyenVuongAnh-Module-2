@@ -1,6 +1,6 @@
-package trien_khai_interface_Resizeable_cho_cac_lop_hinh_hoc;
+package trien_khai_interface_Colorable_cho_cac_lop_hinh_hoc;
 
-class ShapeTest {
+public class ShapeTest {
 
     public static void main(String[] args) {
         Shape shape = new Shape();
